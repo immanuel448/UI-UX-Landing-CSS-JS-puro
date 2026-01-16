@@ -65,10 +65,18 @@
   object-fit: cover;
 }
 
+/* diagrama de arquitectura */
+.custom-diagram{
+  max-width: 800px; /* ajusta */
+  width: 100%;
+}
+
+
 /* SCROLL HORIZONTAL INFINITO */
 .tech-marquee {
   overflow: hidden;
   width: 100%;
+  margin: 0 auto;   /* centrar */
 }
 
 .tech-track {
@@ -96,4 +104,26 @@
   backdrop-filter: blur(2px);
   color: #fff;
 }
+
+.tech-marquee2 {
+  overflow: hidden;
+  width: 60%;
+  margin: 0 auto;   /* centrar| */
+}
+
+
+.tech-badge2 {
+  min-width: 90px;       /* evita que se aplaste eeeee*/
+  text-align: center;
+  padding: 6px 14px;      /*eeeee*/;
+  border-radius: 0.75vw;
+  white-space: nowrap;
+
+  background-color: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(2px);
+  color: #fff;
+}
+
+
 

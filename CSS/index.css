@@ -165,6 +165,10 @@ html {
   transition: transform 5s, filter 0.6s ease, box-shadow 0.3s ease-in-out;
 }
 
+.rectangle img.idea{
+  width: 52.5%;
+}
+
 /* Efecto al pasar el ratón sobre el rectángulo */
 .rectangle:hover img {
   transform: rotateY(360deg);

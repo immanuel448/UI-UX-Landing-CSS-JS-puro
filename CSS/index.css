@@ -79,8 +79,11 @@ html {
   padding: 2vw;
   resize: none;
   box-sizing: border-box;
-  transition: border 0.5s ease-in-out, transform 1.5s ease-in-out,
-    filter 0.6s ease, box-shadow 0.3s ease-in-out;
+  transition:
+    border 0.5s ease-in-out,
+    transform 1.5s ease-in-out,
+    filter 0.6s ease,
+    box-shadow 0.3s ease-in-out;
   overflow: hidden;
 }
 
@@ -139,8 +142,11 @@ html {
   border-radius: 1vw;
   color: white;
   font-size: 2vw;
-  transition: border 0.5s ease-in-out, transform 1.5s ease-in-out,
-    filter 0.6s ease, box-shadow 0.3s ease-in-out;
+  transition:
+    border 0.5s ease-in-out,
+    transform 1.5s ease-in-out,
+    filter 0.6s ease,
+    box-shadow 0.3s ease-in-out;
 }
 
 /* Efecto al pasar el ratón sobre el rectángulo */
@@ -162,11 +168,10 @@ html {
   object-fit: contain;
   display: block;
   margin: 0 auto;
-  transition: transform 5s, filter 0.6s ease, box-shadow 0.3s ease-in-out;
-}
-
-.rectangle img.idea{
-  width: 52.5%;
+  transition:
+    transform 5s,
+    filter 0.6s ease,
+    box-shadow 0.3s ease-in-out;
 }
 
 /* Efecto al pasar el ratón sobre el rectángulo */
@@ -190,8 +195,11 @@ html {
   cursor: pointer;
   z-index: 10;
   box-shadow: 0 0 6px rgba(134, 134, 134, 0.5);
-  transition: width 1s ease, background-color 0.6s ease,
-    transform 1.2s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition:
+    width 1s ease,
+    background-color 0.6s ease,
+    transform 1.2s ease-in-out,
+    box-shadow 0.3s ease-in-out;
 }
 
 /* Hover → expansión */
@@ -216,7 +224,9 @@ html {
   height: 55%;
   object-fit: contain;
 
-  transition: transform 5s, filter 0.6s ease;
+  transition:
+    transform 5s,
+    filter 0.6s ease;
 }
 
 .whatsapp-float:hover .whatsapp-icon img {
@@ -233,7 +243,9 @@ html {
   opacity: 0;
   transform: translateX(-10px);
 
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
 }
 
 .whatsapp-float:hover .whatsapp-text {
@@ -326,6 +338,10 @@ html {
   .rectangle-link {
     width: 100%; /* Ahora cada rectángulo ocupa el 100% del ancho de la columna */
     height: 20vh; /* Mantener la altura de los rectángulos eeeeeeee*/
+  }
+
+  .rectangle img {
+    width: 27.5%;
   }
 
   .whatsapp-float {
@@ -424,7 +440,6 @@ html {
   }
 
   .rectangle img {
-    /* eeeeeee */
     width: 20%;
   }
 
@@ -436,7 +451,7 @@ html {
 
   .whatsapp-float:hover {
     width: 165px;
-  } 
+  }
 
   .whatsapp-icon {
     min-width: 50px;

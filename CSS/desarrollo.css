@@ -111,7 +111,6 @@
   margin: 0 auto;   /* centrar| */
 }
 
-
 .tech-badge2 {
   min-width: 90px;       /* evita que se aplaste eeeee*/
   text-align: center;
@@ -125,5 +124,12 @@
   color: #fff;
 }
 
+.custom-diagram {
+  width: 85%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* centra horizontalmente */
+}
 
 

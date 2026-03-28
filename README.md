@@ -28,8 +28,8 @@ Landing page **interactiva y responsiva** diseñada como carta de presentación 
 
 > *Puedes abrirla en tamaño completo con clic derecho → "Abrir imagen en nueva pestaña".*
 
-## 🌐 Sitio Web en vivo
+## Sitio Web en vivo
 
-🔗 [https://immanuel448.github.io/miWeb](https://immanuel448.github.io/miWeb)
+[Mi Web](https://immanuel448.github.io/UI-UX-Landing-CSS-JS-puro/)
 
 

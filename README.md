@@ -1,32 +1,32 @@
-# 🌐 Página Personal – Lucero Emmanuel ING
+# Página Personal – Lucero Emmanuel ING
 
 Landing page **interactiva y responsiva** diseñada como carta de presentación profesional. Una sola pantalla que combina **efectos visuales, animaciones y accesos rápidos** con un enfoque gráfico y moderno.
 
-## 🎯 ¿Qué contiene?
+## ¿Qué contiene?
 
-- 🌀 **Fondo animado** con patrón hexagonal que se expande y contrae suavemente.
-- ✍️ **Animación de escritura** en el título principal mediante JavaScript.
-- 💬 **Descripción personal** debajo del título, destacando experiencia en desarrollo de software y diseño UX.
-- 🔗 **Cuatro accesos directos** con efectos al pasar el puntero:
+- **Fondo animado** con patrón hexagonal que se expande y contrae suavemente.
+- **Animación de escritura** en el título principal mediante JavaScript.
+- **Descripción personal** debajo del título, destacando experiencia en desarrollo de software y diseño UX.
+- **Cuatro accesos directos** con efectos al pasar el puntero:
   - [YouTube](https://www.youtube.com/@luceroemmanueling/playlists)
   - [GitHub](https://github.com/immanuel448)
   - [ERP Web de ejemplo](https://puntodeventa2023.epizy.com)
   - [WhatsApp](https://wa.me/528117147350)
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **HTML5** + **CSS3**
 - **JavaScript** (para animaciones y comportamiento)
 - **Media queries** para adaptación responsiva
 - **Fuentes personalizadas y diseño centrado en UI/UX**
 
-## 🖼️ Vista previa
+## Vista previa
 
 > Captura de la página completa con todos los efectos visuales activos:
 
 ![Captura de pantalla](/IMG/miWeb.png)
 
-> 💡 *Puedes abrirla en tamaño completo con clic derecho → "Abrir imagen en nueva pestaña".*
+> *Puedes abrirla en tamaño completo con clic derecho → "Abrir imagen en nueva pestaña".*
 
 ## 🌐 Sitio Web en vivo
 

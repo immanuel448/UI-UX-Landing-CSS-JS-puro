@@ -55,8 +55,8 @@ body {
 }
 
 .hero-project-image{
-  /* eeeeeee */
-    max-width: 900px;
+  /* hero */
+    max-width: 850px;
     width: 100%;
     border-radius: 16px;
 }
@@ -86,7 +86,7 @@ body {
     font-family: "bootstrap-icons";
     position: absolute;
     top: 50%;
-    right: -12px;
+    right: -10px;
     transform: translateY(-50%);
     font-size: 1.4rem;
     color: rgba(255,255,255,.8);

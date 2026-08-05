@@ -53,3 +53,56 @@ body {
   position: relative;
   z-index: 2;
 }
+
+.hero-project-image{
+  /* eeeeeee */
+    max-width: 900px;
+    width: 100%;
+    border-radius: 16px;
+}
+
+/* IMPACTO */
+.impact-img{
+    max-width: 250px;
+    width: 100%;
+}
+
+.impact-arrow{
+    max-width: 125px;
+    width: 100%;
+}
+
+/* FLECHAS PARA EL FLUJO */
+/* Cada columna será la referencia para posicionar la flecha */
+.flow .col {
+    position: relative;
+}
+
+/* Flecha */
+.flow .col::after {
+  /* iconos de bootstrap */
+  content: "\F138"; 
+    /* content: "➜"; */
+    font-family: "bootstrap-icons";
+    position: absolute;
+    top: 50%;
+    right: -12px;
+    transform: translateY(-50%);
+    font-size: 1.4rem;
+    color: rgba(255,255,255,.8);
+    z-index: 2;
+}
+
+/* La última tarjeta no lleva flecha */
+.flow .col:last-child::after {
+    display: none;
+}
+
+/* En móvil se ocultan */
+@media (max-width: 767.98px) {
+
+    .flow .col::after {
+        display: none;
+    }
+
+}

@@ -55,7 +55,7 @@ body {
 }
 
 .hero-project-image{
-  /* hero */
+  /* HERO */
     max-width: 850px;
     width: 100%;
     border-radius: 16px;
@@ -63,14 +63,15 @@ body {
 
 /* IMPACTO */
 .impact-img{
-    max-width: 250px;
+    max-width: 200px;
     width: 100%;
 }
 
 .impact-arrow{
-    max-width: 125px;
+    max-width: 135px;
     width: 100%;
-}
+    opacity: 0.75;
+  }
 
 /* FLECHAS PARA EL FLUJO */
 /* Cada columna será la referencia para posicionar la flecha */
@@ -81,7 +82,7 @@ body {
 /* Flecha */
 .flow .col::after {
   /* iconos de bootstrap */
-  content: "\F138"; 
+    content: "\F138"; 
     /* content: "➜"; */
     font-family: "bootstrap-icons";
     position: absolute;
